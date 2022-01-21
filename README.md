@@ -11,8 +11,6 @@ topic. When the total number changes from 0 to 1, it should send a subscribe req
 1 to 0, it should send an unsubscribe request. These logics appear in all the `subscribe` and `unsubscribe` functions
 so I decided to extract these logics and make them reusable across projects.
 
-### The Pattern
-
 ## 📕 Usage
 
 
